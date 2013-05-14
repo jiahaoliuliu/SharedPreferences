@@ -5,4 +5,14 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="subir_volumen">+</string>
+    <string name="bajar_volumen">-</string>
+    <string name="volumen">Volumen</string>
+    <string name="volumen_defecto">0</string>
+
+    <string name="subir_canal">+</string>
+    <string name="bajar_canal">-</string>
+    <string name="canal">Canal</string>
+    <string name="canal_defecto">0</string>
+    
 </resources>
