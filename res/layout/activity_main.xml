@@ -10,21 +10,11 @@
 
     <Button
         android:id="@+id/bajarVolumen"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="150dp"
         android:layout_alignLeft="@+id/subirVolumen"
         android:layout_below="@+id/subirVolumen"
         android:text="@string/bajar_volumen" />
-
-    <Button
-        android:id="@+id/subirVolumen"
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="42dp"
-        android:text="@string/subir_volumen" />
 
     <EditText
         android:id="@+id/volumenActual"
@@ -54,7 +44,7 @@
 
      <Button
         android:id="@+id/bajarCanal"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="150dp"
         android:layout_alignLeft="@+id/subirCanal"
         android:layout_below="@+id/subirCanal"
@@ -88,11 +78,21 @@
 
     <Button
         android:id="@+id/subirCanal"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="150dp"
         android:layout_above="@+id/bajarVolumen"
         android:layout_marginLeft="48dp"
         android:layout_toRightOf="@+id/bajarVolumen"
         android:text="@string/subir_canal" />
+
+    <Button
+        android:id="@+id/subirVolumen"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/volumenActual"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/subir_volumen" />
     
 </RelativeLayout>
