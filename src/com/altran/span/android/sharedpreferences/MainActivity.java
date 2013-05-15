@@ -35,7 +35,11 @@ public class MainActivity extends Activity {
         bajarVolumen.setOnClickListener(onClickListener);
 
         volumenActualET = (EditText)findViewById(R.id.volumenActual);
+
+        // Modificar el siguiente código para leer del shared preferences y mostrarlo
+        // en el volumenActualET
         volumenActual = Integer.parseInt(volumenActualET.getText().toString());
+        volumenActualET.setText(Integer.toString(volumenActual));
         Log.v(LOG_TAG, "El volumen actual es "+ volumenActual);
 
         subirCanal = (Button)findViewById(R.id.subirCanal);
@@ -45,7 +49,11 @@ public class MainActivity extends Activity {
         bajarCanal.setOnClickListener(onClickListener);
 
         canalActualET = (EditText)findViewById(R.id.canalActual);
+
+        // Modificar el siguiente código para ller del shared preferences y mostrarlo
+        // en el canalActualET
         canalActual = Integer.parseInt(canalActualET.getText().toString());
+        canalActualET.setText(Integer.toString(canalActual));
         Log.v(LOG_TAG, "El canal actual es " + canalActual);
 	}
 
